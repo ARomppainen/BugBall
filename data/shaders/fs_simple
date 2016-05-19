@@ -1,0 +1,24 @@
+precision mediump float;
+
+uniform bool useTexture;
+
+uniform sampler2D tex;
+uniform vec4 color;
+
+varying vec2 fragTexCoord;
+
+void main() {
+
+	vec4 linearColor;
+	
+	if (useTexture) {
+		linearColor = texture2D(tex, fragTexCoord);
+	} else {
+		linearColor = color;
+	}
+
+    //vec3 gamma = vec3(1.0 / 2.2);
+
+	//gl_FragColor = vec4(pow(linearColor.rgb, gamma), linearColor.a);
+    gl_FragColor = linearColor;
+}

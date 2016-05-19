@@ -1,0 +1,33 @@
+precision mediump float;
+
+uniform mat4 camera;
+uniform mat4 model;
+uniform bool useTexture;
+uniform bool swapX;
+uniform bool swapY;
+
+attribute vec3 vert;
+attribute vec2 vertTexCoord;
+
+varying vec2 fragTexCoord;
+
+void main() {
+
+	if (useTexture) {
+        float x = vertTexCoord.x;
+        float y = vertTexCoord.y;
+
+        if (swapX) {
+            x = 1.0 - x;
+        }
+
+        if (!swapY) {
+            y = 1.0 - y;
+        }
+
+        fragTexCoord = vec2(x, y);
+        //fragTexCoord = vec2(vertTexCoord.x, 1.0 - vertTexCoord.y);
+    }
+	
+    gl_Position = camera * model * vec4(vert, 1);
+}

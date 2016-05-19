@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<level>
+	<rows value="9" />
+	<columns value="12" />
+	
+	<tiles name="TILES_GRASS" width="128" height="128">
+		<tile id="1"  x="0"    y="0"   />
+		<tile id="2"  x="128"  y="0"   /> 
+		<tile id="3"  x="256"  y="0"   />
+		<tile id="4"  x="384"  y="0"   />
+		<tile id="5"  x="0"    y="128" />
+		<tile id="6"  x="128"  y="128" />
+		<tile id="7"  x="256"  y="128" />
+		<tile id="8"  x="384"  y="128" />
+		<tile id="9"  x="0"    y="256" />
+		<tile id="10" x="128"  y="256" />
+		<tile id="11" x="256"  y="256" />
+		<tile id="12" x="384"  y="256" />
+		<tile id="13" x="0"    y="384" />
+		<tile id="14" x="128"  y="384" />
+		<tile id="15" x="256"  y="384" />
+		<tile id="16" x="384"  y="384" />
+	</tiles>
+
+	<!-- 
+	tile(tile id),
+	draw(0 = do not render, 1 = render),
+	playground(0 = false, 1 = true),
+	goal(0 = not a goal, 1 = player 1 goal, 2 = player 2 goal),
+	flip(0 = don't flip, 1 = flip x axis)
+	-->
+	<row r="1">
+		<hex tile="1" draw="0" playground="0" goal="0" flip="0" />
+		<hex tile="1" draw="0" playground="0" goal="0" flip="0" />
+		<hex tile="13" draw="1" playground="0" goal="0" flip="0" />
+		<hex tile="16" draw="1" playground="0" goal="0" flip="0" />
+		<hex tile="15" draw="1" playground="0" goal="0" flip="0" />
+		<hex tile="15" draw="1" playground="0" goal="0" flip="0" />
+		<hex tile="15" draw="1" playground="0" goal="0" flip="0" />
+		<hex tile="15" draw="1" playground="0" goal="0" flip="0" />
+		<hex tile="15" draw="1" playground="0" goal="0" flip="0" />
+		<hex tile="16" draw="1" playground="0" goal="0" flip="1" />
+		<hex tile="13" draw="1" playground="0" goal="0" flip="1" />
+		<hex tile="1" draw="0" playground="0" goal="0" flip="0" />
+	</row>
+	<row r="2">
+		<hex tile="1" draw="0" playground="0" goal="0" flip="0" />
+		<hex tile="12" draw="1" playground="0" goal="0" flip="0" />
+		<hex tile="3" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="3" draw="1" playground="1" goal="0" flip="1" />
+		<hex tile="12" draw="1" playground="0" goal="0" flip="1" />
+		<hex tile="1" draw="0" playground="0" goal="0" flip="0" />
+	</row>
+	<row r="3">
+		<hex tile="1" draw="0" playground="0" goal="0" flip="0" />
+		<hex tile="14" draw="1" playground="0" goal="0" flip="0" />
+		<hex tile="2" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="4" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="4" draw="1" playground="1" goal="0" flip="1" />
+		<hex tile="2" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="14" draw="1" playground="0" goal="0" flip="1" />
+	</row>
+	<row r="4">
+		<hex tile="6" draw="1" playground="0" goal="2" flip="0" />
+		<hex tile="2" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="3" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="3" draw="1" playground="1" goal="0" flip="1" />
+		<hex tile="2" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="6" draw="1" playground="0" goal="1" flip="1" />
+	</row>
+	<row r="5">
+		<hex tile="1" draw="0" playground="0" goal="0" flip="0" />
+		<hex tile="5" draw="1" playground="0" goal="2" flip="0" />
+		<hex tile="2" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="4" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="4" draw="1" playground="1" goal="0" flip="1" />
+		<hex tile="2" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="5" draw="1" playground="0" goal="1" flip="1" />
+	</row>
+	<row r="6">
+		<hex tile="6" draw="1" playground="0" goal="2" flip="0" />
+		<hex tile="2" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="3" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="3" draw="1" playground="1" goal="0" flip="1" />
+		<hex tile="2" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="6" draw="1" playground="0" goal="1" flip="1" />
+	</row>
+	<row r="7">
+		<hex tile="1" draw="0" playground="0" goal="0" flip="0" />
+		<hex tile="9" draw="1" playground="0" goal="0" flip="0" />
+		<hex tile="2" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="4" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="4" draw="1" playground="1" goal="0" flip="1" />
+		<hex tile="2" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="9" draw="1" playground="0" goal="0" flip="1" />
+	</row>
+	<row r="8">
+		<hex tile="1" draw="0" playground="0" goal="0" flip="0" />
+		<hex tile="7" draw="1" playground="0" goal="0" flip="0" />
+		<hex tile="3" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="1" draw="1" playground="1" goal="0" flip="0" />
+		<hex tile="3" draw="1" playground="1" goal="0" flip="1" />
+		<hex tile="7" draw="1" playground="0" goal="0" flip="1" />
+		<hex tile="1" draw="0" playground="0" goal="0" flip="0" />
+	</row>
+	<row r="9">
+		<hex tile="1" draw="0" playground="0" goal="0" flip="0" />
+		<hex tile="1" draw="0" playground="0" goal="0" flip="0" />
+		<hex tile="8" draw="1" playground="0" goal="0" flip="0" />
+		<hex tile="11" draw="1" playground="0" goal="0" flip="0" />
+		<hex tile="10" draw="1" playground="0" goal="0" flip="0" />
+		<hex tile="10" draw="1" playground="0" goal="0" flip="0" />
+		<hex tile="10" draw="1" playground="0" goal="0" flip="0" />
+		<hex tile="10" draw="1" playground="0" goal="0" flip="0" />
+		<hex tile="10" draw="1" playground="0" goal="0" flip="0" />
+		<hex tile="11" draw="1" playground="0" goal="0" flip="1" />
+		<hex tile="8" draw="1" playground="0" goal="0" flip="1" />
+		<hex tile="1" draw="0" playground="0" goal="0" flip="0" />
+	</row>
+</level>

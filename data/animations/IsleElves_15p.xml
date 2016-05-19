@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:7a9226cb32d014429647ce673120f100:5f710935d6dded6e5fe3f193be9f341d:547a83bccc777f84d6dd3dd343b4da70$ -->
+<!--Format:
+sprite:
+n  => image idoriginally name of the sprite file
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite widthmay be trimmed
+h  => sprite heightmay be trimmed
+oX => sprite's x-corner offsetonly available if trimmed
+oY => sprite's y-corner offsetonly available if trimmed
+oW => sprite's original widthonly available if trimmed
+oH => sprite's original heightonly available if trimmed
+r => 'y' only set if sprite is rotated
+
+animation:
+n = name of animation
+l = looping method: 0=forward, 1=backward, 2=ping pong
+i = impact image. Some animations, such as the tackle and the kick, have an "impact" moment. This variable tells the time of impact in milliseconds.
+d = duration in milliseconds
+f = following animationname
+-->
+<TextureAtlas imagePath="IslandElves15p.png" width="1024" height="1024">
+     <animation n="BeardElfCheer" l="0" i="0" d="666" f="">
+		<sprite n="BeardElfCheer01" x="59" y="948" w="59" h="76" oX="54" oY="82" oW="165" oH="180"/>
+		<sprite n="BeardElfCheer02" x="315" y="148" w="57" h="74" oX="56" oY="89" oW="165" oH="180"/>
+		<sprite n="BeardElfCheer03" x="935" y="168" w="73" h="60" oX="48" oY="103" oW="165" oH="180"/>
+		<sprite n="BeardElfCheer04" x="941" y="58" w="77" h="54" oX="47" oY="109" oW="165" oH="180"/>
+		<sprite n="BeardElfCheer05" x="323" y="0" w="57" h="74" oX="56" oY="89" oW="165" oH="180"/>
+		<sprite n="BeardElfCheer06" x="55" y="330" w="63" h="78" oX="53" oY="76" oW="165" oH="180"/>
+		<sprite n="BeardElfCheer07" x="181" y="476" w="65" h="74" oX="52" oY="76" oW="165" oH="180"/>
+		<sprite n="BeardElfCheer08" x="555" y="144" w="65" h="70" oX="53" oY="77" oW="165" oH="180"/>
+		<sprite n="BeardElfCheer09" x="169" y="720" w="59" h="74" oX="56" oY="76" oW="165" oH="180"/>
+		<sprite n="BeardElfCheer10" x="59" y="872" w="59" h="76" oX="54" oY="78" oW="165" oH="180"/>
+	</animation>
+	<animation n="BeardElfCry" l="2" i="0" d="200" f=""> 
+		<sprite n="BeardElfCry01" x="585" y="286" w="51" h="70" oX="47" oY="91" oW="165" oH="180"/>
+		<sprite n="BeardElfCry02" x="693" y="264" w="53" h="64" oX="47" oY="97" oW="165" oH="180"/>
+		<sprite n="BeardElfCry03" x="692" y="198" w="53" h="66" oX="46" oY="95" oW="165" oH="180"/>
+	</animation>
+	<animation n="BeardElfHurt" l="0" i="0" d="466" f=""> 
+		<sprite n="BeardElfHurt01" x="185" y="240" w="75" h="74" oX="56" oY="91" oW="165" oH="180"/>
+		<sprite n="BeardElfHurt02" x="401" y="514" w="79" h="70" oX="54" oY="90" oW="165" oH="180"/>
+		<sprite n="BeardElfHurt03" x="740" y="0" w="73" h="64" oX="61" oY="88" oW="165" oH="180"/>
+		<sprite n="BeardElfHurt04" x="516" y="290" w="69" h="70" oX="59" oY="87" oW="165" oH="180"/>
+		<sprite n="BeardElfHurt05" x="483" y="362" w="69" h="70" oX="56" oY="87" oW="165" oH="180"/>
+		<sprite n="BeardElfHurt06" x="565" y="0" w="65" h="66" oX="60" oY="88" oW="165" oH="180"/>
+		<sprite n="BeardElfHurt07" x="638" y="952" w="65" h="66" oX="60" oY="89" oW="165" oH="180"/>
+	</animation>
+	<animation n="BeardElfIdle" l="0" i="0" d="666" f="BeardElfIdle">
+		<sprite n="BeardElfIdle01" x="120" y="400" w="57" h="76" oX="57" oY="87" oW="165" oH="180"/>
+		<sprite n="BeardElfIdle02" x="315" y="74" w="57" h="74" oX="57" oY="89" oW="165" oH="180"/>
+		<sprite n="BeardElfIdle03" x="260" y="222" w="57" h="74" oX="57" oY="89" oW="165" oH="180"/>
+		<sprite n="BeardElfIdle04" x="258" y="148" w="57" h="74" oX="57" oY="89" oW="165" oH="180"/>
+		<sprite n="BeardElfIdle05" x="266" y="0" w="57" h="74" oX="56" oY="89" oW="165" oH="180"/>
+		<sprite n="BeardElfIdle06" x="258" y="74" w="57" h="74" oX="56" oY="89" oW="165" oH="180"/>
+		<sprite n="BeardElfIdle07" x="234" y="942" w="57" h="74" oX="57" oY="89" oW="165" oH="180"/>
+		<sprite n="BeardElfIdle08" x="234" y="868" w="57" h="74" oX="57" oY="89" oW="165" oH="180"/>
+		<sprite n="BeardElfIdle09" x="75" y="488" w="57" h="76" oX="57" oY="87" oW="165" oH="180"/>
+		<sprite n="BeardElfIdle10" x="63" y="568" w="57" h="76" oX="57" oY="87" oW="165" oH="180"/>
+	</animation>
+	<animation n="BeardElfStop" l="0" i="0" d="666" f="">
+		<sprite n="BeardElfIdle01" x="120" y="400" w="57" h="76" oX="57" oY="87" oW="165" oH="180"/>
+	</animation>
+	<animation n="BeardElfKick" l="0" i="0" d="733" f="">
+		<sprite n="BeardElfKick01" x="177" y="942" w="57" h="74" oX="52" oY="88" oW="165" oH="180"/>
+		<sprite n="BeardElfKick02" x="236" y="550" w="55" h="74" oX="64" oY="86" oW="165" oH="180"/>
+		<sprite n="BeardElfKick03" x="0" y="796" w="61" h="76" oX="61" oY="84" oW="165" oH="180"/>
+		<sprite n="BeardElfKick04" x="230" y="314" w="61" h="74" oX="64" oY="86" oW="165" oH="180"/>
+		<sprite n="BeardElfKick05" x="340" y="536" w="61" h="72" oX="66" oY="90" oW="165" oH="180"/>
+		<sprite n="BeardElfKick06" x="937" y="112" w="85" h="56" oX="46" oY="98" oW="165" oH="180"/>
+		<sprite n="BeardElfKick07" x="561" y="954" w="77" h="66" oX="48" oY="91" oW="165" oH="180"/>
+		<sprite n="BeardElfKick08" x="446" y="434" w="75" h="70" oX="44" oY="89" oW="165" oH="180"/>
+		<sprite n="BeardElfKick09" x="187" y="152" w="71" h="74" oX="46" oY="89" oW="165" oH="180"/>
+		<sprite n="BeardElfKick10" x="189" y="76" w="69" h="74" oX="49" oY="89" oW="165" oH="180"/>
+		<sprite n="BeardElfKick11" x="122" y="164" w="65" h="76" oX="53" oY="87" oW="165" oH="180"/>
+	</animation>
+	<animation n="BeardElfRun" l="0" i="0" d="533" f="">
+		<sprite n="BeardElfRun01" x="605" y="356" w="59" h="68" oX="47" oY="91" oW="165" oH="180"/>
+		<sprite n="BeardElfRun02" x="228" y="626" w="55" h="74" oX="49" oY="87" oW="165" oH="180"/>
+		<sprite n="BeardElfRun03" x="664" y="352" w="57" h="64" oX="48" oY="91" oW="165" oH="180"/>
+		<sprite n="BeardElfRun04" x="613" y="562" w="59" h="58" oX="47" oY="95" oW="165" oH="180"/>
+		<sprite n="BeardElfRun05" x="537" y="502" w="63" h="68" oX="47" oY="90" oW="165" oH="180"/>
+		<sprite n="BeardElfRun06" x="169" y="552" w="67" h="74" oX="45" oY="86" oW="165" oH="180"/>
+		<sprite n="BeardElfRun07" x="550" y="642" w="61" h="64" oX="47" oY="92" oW="165" oH="180"/>
+		<sprite n="BeardElfRun08" x="611" y="634" w="59" h="60" oX="47" oY="95" oW="165" oH="180"/>
+	</animation>
+	<animation n="BeardElfTackle" l="0" i="0" d="733" f="">
+		<sprite n="BeardElfTackle01" x="226" y="794" w="57" h="74" oX="54" oY="88" oW="165" oH="180"/>
+		<sprite n="BeardElfTackle02" x="177" y="868" w="57" h="74" oX="61" oY="88" oW="165" oH="180"/>
+		<sprite n="BeardElfTackle03" x="199" y="0" w="67" h="74" oX="58" oY="91" oW="165" oH="180"/>
+		<sprite n="BeardElfTackle04" x="523" y="216" w="67" h="70" oX="66" oY="92" oW="165" oH="180"/>
+		<sprite n="BeardElfTackle05" x="740" y="64" w="67" h="64" oX="71" oY="94" oW="165" oH="180"/>
+		<sprite n="BeardElfTackle06" x="620" y="132" w="63" h="66" oX="61" oY="90" oW="165" oH="180"/>
+		<sprite n="BeardElfTackle07" x="0" y="86" w="69" h="84" oX="38" oY="73" oW="165" oH="180"/>
+		<sprite n="BeardElfTackle08" x="124" y="0" w="75" h="76" oX="37" oY="83" oW="165" oH="180"/>
+		<sprite n="BeardElfTackle09" x="380" y="0" w="77" h="72" oX="36" oY="89" oW="165" oH="180"/>
+		<sprite n="BeardElfTackle10" x="449" y="72" w="67" h="72" oX="45" oY="90" oW="165" oH="180"/>
+		<sprite n="BeardElfTackle11" x="171" y="626" w="57" h="74" oX="52" oY="88" oW="165" oH="180"/>
+	</animation>
+	
+
+	<animation n="RastaDwarfCheer" l="0" i="0" d="666" f="">
+		<sprite n="RastaDwarfCheer1" x="0" y="410" w="53" h="80" oX="58" oY="80" oW="165" oH="180"/>
+		<sprite n="RastaDwarfCheer2" x="116" y="796" w="53" h="76" oX="58" oY="86" oW="165" oH="180"/>
+		<sprite n="RastaDwarfCheer3" x="550" y="706" w="67" h="60" oX="53" oY="102" oW="165" oH="180"/>
+		<sprite n="RastaDwarfCheer4" x="657" y="488" w="71" h="56" oX="51" oY="106" oW="165" oH="180"/>
+		<sprite n="RastaDwarfCheer5" x="291" y="296" w="53" h="74" oX="58" oY="88" oW="165" oH="180"/>
+		<sprite n="RastaDwarfCheer6" x="0" y="250" w="57" h="80" oX="57" oY="74" oW="165" oH="180"/>
+		<sprite n="RastaDwarfCheer7" x="0" y="948" w="59" h="76" oX="56" oY="75" oW="165" oH="180"/>
+		<sprite n="RastaDwarfCheer8" x="118" y="946" w="59" h="74" oX="57" oY="74" oW="165" oH="180"/>
+		<sprite n="RastaDwarfCheer9" x="71" y="0" w="53" h="78" oX="60" oY="73" oW="165" oH="180"/>
+		<sprite n="RastaDwarfCheer10" x="0" y="330" w="55" h="80" oX="56" oY="75" oW="165" oH="180"/>
+	</animation>
+	<animation n="RastaDwarfCry" l="2" i="0" d="200" f="">
+		<sprite n="RastaDwarfCry1" x="0" y="720" w="61" h="76" oX="41" oY="90" oW="165" oH="180"/>
+		<sprite n="RastaDwarfCry2" x="491" y="574" w="63" h="68" oX="41" oY="96" oW="165" oH="180"/>
+		<sprite n="RastaDwarfCry3" x="334" y="622" w="61" h="72" oX="42" oY="93" oW="165" oH="180"/>
+	</animation>
+	<animation n="RastaDwarfHurt" l="0" i="0" d="466" f="">
+		<sprite n="RastaDwarfHurt1" x="0" y="490" w="75" h="78" oX="57" oY="87" oW="165" oH="180"/>
+		<sprite n="RastaDwarfHurt2" x="372" y="74" w="77" h="72" oX="56" oY="87" oW="165" oH="180"/>
+		<sprite n="RastaDwarfHurt3" x="477" y="750" w="73" h="68" oX="62" oY="85" oW="165" oH="180"/>
+		<sprite n="RastaDwarfHurt4" x="439" y="146" w="67" h="72" oX="60" oY="84" oW="165" oH="180"/>
+		<sprite n="RastaDwarfHurt5" x="405" y="218" w="67" h="72" oX="55" oY="83" oW="165" oH="180"/>
+		<sprite n="RastaDwarfHurt6" x="330" y="698" w="61" h="72" oX="61" oY="84" oW="165" oH="180"/>
+		<sprite n="RastaDwarfHurt7" x="320" y="774" w="61" h="72" oX="62" oY="85" oW="165" oH="180"/>
+	</animation>
+	<animation n="RastaDwarfIdle" l="0" i="0" d="666" f="RastaDwarfIdle">
+		<sprite n="RastaDwarfIdle1" x="181" y="324" w="49" h="76" oX="59" oY="86" oW="165" oH="180"/>
+		<sprite n="RastaDwarfIdle2" x="118" y="644" w="53" h="76" oX="58" oY="86" oW="165" oH="180"/>
+		<sprite n="RastaDwarfIdle3" x="289" y="388" w="53" h="74" oX="58" oY="88" oW="165" oH="180"/>
+		<sprite n="RastaDwarfIdle4" x="246" y="474" w="53" h="74" oX="57" oY="88" oW="165" oH="180"/>
+		<sprite n="RastaDwarfIdle5" x="283" y="624" w="51" h="74" oX="57" oY="88" oW="165" oH="180"/>
+		<sprite n="RastaDwarfIdle6" x="279" y="700" w="51" h="74" oX="57" oY="88" oW="165" oH="180"/>
+		<sprite n="RastaDwarfIdle7" x="228" y="700" w="51" h="74" oX="57" oY="88" oW="165" oH="180"/>
+		<sprite n="RastaDwarfIdle8" x="132" y="476" w="49" h="76" oX="59" oY="86" oW="165" oH="180"/>
+		<sprite n="RastaDwarfIdle9" x="120" y="564" w="49" h="76" oX="59" oY="86" oW="165" oH="180"/>
+		<sprite n="RastaDwarfIdle10" x="177" y="400" w="49" h="76" oX="59" oY="86" oW="165" oH="180"/>
+	</animation>
+	<animation n="RastaDwarfStop" l="0" i="0" d="666" f="">
+		<sprite n="RastaDwarfIdle1" x="181" y="324" w="49" h="76" oX="59" oY="86" oW="165" oH="180"/>
+	</animation>
+	<animation n="RastaDwarfKick" l="0" i="0" d="733" f="">
+		<sprite n="RastaDwarfKick1" x="0" y="568" w="63" h="76" oX="52" oY="86" oW="165" oH="180"/>
+		<sprite n="RastaDwarfKick2" x="291" y="548" w="49" h="74" oX="66" oY="85" oW="165" oH="180"/>
+		<sprite n="RastaDwarfKick3" x="69" y="86" w="57" h="78" oX="60" oY="82" oW="165" oH="180"/>
+		<sprite n="RastaDwarfKick4" x="61" y="644" w="57" h="76" oX="62" oY="84" oW="165" oH="180"/>
+		<sprite n="RastaDwarfKick5" x="169" y="794" w="57" h="74" oX="63" oY="89" oW="165" oH="180"/>
+		<sprite n="RastaDwarfKick6" x="941" y="0" w="79" h="58" oX="45" oY="96" oW="165" oH="180"/>
+		<sprite n="RastaDwarfKick7" x="571" y="886" w="71" h="66" oX="47" oY="90" oW="165" oH="180"/>
+		<sprite n="RastaDwarfKick8" x="118" y="248" w="67" h="76" oX="45" oY="87" oW="165" oH="180"/>
+		<sprite n="RastaDwarfKick9" x="118" y="324" w="63" h="76" oX="47" oY="87" oW="165" oH="180"/>
+		<sprite n="RastaDwarfKick10" x="126" y="76" w="63" h="76" oX="49" oY="87" oW="165" oH="180"/>
+		<sprite n="RastaDwarfKick11" x="0" y="644" w="61" h="76" oX="51" oY="86" oW="165" oH="180"/>
+	</animation>
+	<animation n="RastaDwarfRun" l="0" i="0" d="533" f="">
+		<sprite n="RastaDwarfRun1" x="291" y="848" w="61" h="72" oX="55" oY="88" oW="165" oH="180"/>
+		<sprite n="RastaDwarfRun2" x="0" y="170" w="63" h="80" oX="56" oY="83" oW="165" oH="180"/>
+		<sprite n="RastaDwarfRun3" x="574" y="430" w="59" h="68" oX="56" oY="88" oW="165" oH="180"/>
+		<sprite n="RastaDwarfRun4" x="633" y="424" w="57" h="64" oX="54" oY="91" oW="165" oH="180"/>
+		<sprite n="RastaDwarfRun5" x="480" y="504" w="57" h="70" oX="55" oY="88" oW="165" oH="180"/>
+		<sprite n="RastaDwarfRun6" x="63" y="170" w="59" h="78" oX="53" oY="83" oW="165" oH="180"/>
+		<sprite n="RastaDwarfRun7" x="485" y="818" w="53" h="68" oX="55" oY="89" oW="165" oH="180"/>
+		<sprite n="RastaDwarfRun8" x="600" y="498" w="57" h="64" oX="54" oY="92" oW="165" oH="180"/>
+	</animation>
+	<animation n="RastaDwarfTackle" l="0" i="0" d="733" f="">
+		<sprite n="RastaDwarfTackle1" x="61" y="796" w="55" h="76" oX="52" oY="86" oW="165" oH="180"/>
+		<sprite n="RastaDwarfTackle2" x="472" y="218" w="51" h="72" oX="60" oY="88" oW="165" oH="180"/>
+		<sprite n="RastaDwarfTackle3" x="57" y="250" w="61" h="78" oX="55" oY="88" oW="165" oH="180"/>
+		<sprite n="RastaDwarfTackle4" x="457" y="0" w="61" h="72" oX="63" oY="91" oW="165" oH="180"/>
+		<sprite n="RastaDwarfTackle5" x="628" y="66" w="61" h="66" oX="68" oY="93" oW="165" oH="180"/>
+		<sprite n="RastaDwarfTackle6" x="554" y="570" w="59" h="64" oX="58" oY="90" oW="165" oH="180"/>
+		<sprite n="RastaDwarfTackle7" x="0" y="0" w="71" h="86" oX="36" oY="71" oW="165" oH="180"/>
+		<sprite n="RastaDwarfTackle8" x="53" y="410" w="67" h="78" oX="38" oY="81" oW="165" oH="180"/>
+		<sprite n="RastaDwarfTackle9" x="372" y="146" w="67" h="72" oX="41" oY="89" oW="165" oH="180"/>
+		<sprite n="RastaDwarfTackle10" x="118" y="872" w="59" h="74" oX="46" oY="88" oW="165" oH="180"/>
+		<sprite n="RastaDwarfTackle11" x="116" y="720" w="53" h="76" oX="51" oY="86" oW="165" oH="180"/>
+	</animation>
+	
+	
+
+	<animation n="SportyElfCheer" l="0" i="0" d="666" f="">
+		<sprite n="SportyElfCheer1" x="0" y="872" w="59" h="76" oX="56" oY="81" oW="165" oH="180"/>
+		<sprite n="SportyElfCheer2" x="226" y="400" w="63" h="74" oX="57" oY="89" oW="165" oH="180"/>
+		<sprite n="SportyElfCheer3" x="868" y="0" w="73" h="60" oX="53" oY="102" oW="165" oH="180"/>
+		<sprite n="SportyElfCheer4" x="690" y="416" w="69" h="54" oX="51" oY="108" oW="165" oH="180"/>
+		<sprite n="SportyElfCheer5" x="516" y="72" w="49" h="72" oX="59" oY="89" oW="165" oH="180"/>
+		<sprite n="SportyElfCheer6" x="342" y="370" w="45" h="74" oX="62" oY="76" oW="165" oH="180"/>
+		<sprite n="SportyElfCheer7" x="475" y="290" w="41" h="72" oX="64" oY="76" oW="165" oH="180"/>
+		<sprite n="SportyElfCheer8" x="538" y="818" w="47" h="68" oX="63" oY="77" oW="165" oH="180"/>
+		<sprite n="SportyElfCheer9" x="506" y="144" w="49" h="72" oX="61" oY="76" oW="165" oH="180"/>
+		<sprite n="SportyElfCheer10" x="61" y="720" w="55" h="76" oX="56" oY="76" oW="165" oH="180"/>
+	</animation>
+	<animation n="SportyElfCry" l="2" i="0" d="200" f="">
+		<sprite n="SportyElfCry1" x="520" y="954" w="41" h="68" oX="54" oY="94" oW="165" oH="180"/>
+		<sprite n="SportyElfCry2" x="828" y="186" w="45" h="60" oX="51" oY="102" oW="165" oH="180"/>
+		<sprite n="SportyElfCry3" x="785" y="128" w="43" h="64" oX="53" oY="98" oW="165" oH="180"/>
+	</animation>
+	<animation n="SportyElfHurt" l="0" i="0" d="466" f="">
+		<sprite n="SportyElfHurt1" x="434" y="584" w="57" h="70" oX="60" oY="92" oW="165" oH="180"/>
+		<sprite n="SportyElfHurt2" x="430" y="680" w="57" h="70" oX="60" oY="91" oW="165" oH="180"/>
+		<sprite n="SportyElfHurt3" x="465" y="906" w="55" h="68" oX="62" oY="89" oW="165" oH="180"/>
+		<sprite n="SportyElfHurt4" x="369" y="918" w="59" h="70" oX="59" oY="86" oW="165" oH="180"/>
+		<sprite n="SportyElfHurt5" x="565" y="66" w="63" h="66" oX="55" oY="86" oW="165" oH="180"/>
+		<sprite n="SportyElfHurt6" x="745" y="198" w="49" h="64" oX="68" oY="88" oW="165" oH="180"/>
+		<sprite n="SportyElfHurt7" x="683" y="132" w="53" h="66" oX="64" oY="89" oW="165" oH="180"/>
+	</animation>
+	<animation n="SportyElfIdle" l="0" i="0" d="666" f="SportyElfIdle">
+		<sprite n="SportyElfIdle1" x="283" y="774" w="37" h="74" oX="67" oY="88" oW="165" oH="180"/>		
+		<sprite n="SportyElfIdle2" x="395" y="608" w="39" h="72" oX="65" oY="90" oW="165" oH="180"/>
+		<sprite n="SportyElfIdle3" x="391" y="694" w="39" h="72" oX="65" oY="90" oW="165" oH="180"/>
+		<sprite n="SportyElfIdle4" x="381" y="770" w="39" h="72" oX="65" oY="91" oW="165" oH="180"/>
+		<sprite n="SportyElfIdle5" x="352" y="846" w="39" h="72" oX="65" oY="91" oW="165" oH="180"/>
+		<sprite n="SportyElfIdle6" x="330" y="920" w="39" h="72" oX="65" oY="90" oW="165" oH="180"/>
+		<sprite n="SportyElfIdle7" x="291" y="920" w="39" h="72" oX="65" oY="90" oW="165" oH="180"/>
+		<sprite n="SportyElfIdle8" x="344" y="296" w="39" h="74" oX="65" oY="89" oW="165" oH="180"/>
+		<sprite n="SportyElfIdle9" x="368" y="222" w="37" h="74" oX="67" oY="89" oW="165" oH="180"/>
+		<sprite n="SportyElfIdle10" x="383" y="296" w="37" h="74" oX="67" oY="88" oW="165" oH="180"/>
+	</animation>
+	<animation n="SportyElfStop" l="0" i="0" d="666" f="">
+		<sprite n="SportyElfIdle1" x="283" y="774" w="37" h="74" oX="67" oY="88" oW="165" oH="180"/>
+	</animation>
+	<animation n="SportyElfKick" l="0" i="0" d="733" f="">		
+		<sprite n="SportyElfKick1" x="399" y="442" w="47" h="72" oX="61" oY="89" oW="165" oH="180"/>
+		<sprite n="SportyElfKick2" x="448" y="836" w="37" h="70" oX="71" oY="89" oW="165" oH="180"/>
+		<sprite n="SportyElfKick3" x="299" y="462" w="45" h="74" oX="66" oY="85" oW="165" oH="180"/>
+		<sprite n="SportyElfKick4" x="518" y="0" w="47" h="72" oX="66" oY="87" oW="165" oH="180"/>
+		<sprite n="SportyElfKick5" x="590" y="214" w="49" h="70" oX="66" oY="92" oW="165" oH="180"/>
+		<sprite n="SportyElfKick6" x="930" y="228" w="71" h="56" oX="58" oY="98" oW="165" oH="180"/>
+		<sprite n="SportyElfKick7" x="807" y="64" w="77" h="62" oX="43" oY="94" oW="165" oH="180"/>
+		<sprite n="SportyElfKick8" x="487" y="654" w="63" h="68" oX="45" oY="91" oW="165" oH="180"/>
+		<sprite n="SportyElfKick9" x="552" y="360" w="53" h="70" oX="51" oY="90" oW="165" oH="180"/>
+		<sprite n="SportyElfKick10" x="420" y="766" w="57" h="70" oX="54" oY="90" oW="165" oH="180"/>
+		<sprite n="SportyElfKick11" x="420" y="290" w="55" h="72" oX="60" oY="90" oW="165" oH="180"/>
+	</animation>
+	<animation n="SportyElfRun" l="0" i="0" d="533" f="">
+		<sprite n="SportyElfRun1" x="639" y="198" w="53" h="66" oX="57" oY="93" oW="165" oH="180"/>
+		<sprite n="SportyElfRun2" x="521" y="432" w="53" h="70" oX="57" oY="89" oW="165" oH="180"/>
+		<sprite n="SportyElfRun3" x="828" y="126" w="51" h="60" oX="57" oY="92" oW="165" oH="180"/>
+		<sprite n="SportyElfRun4" x="879" y="178" w="51" h="58" oX="56" oY="94" oW="165" oH="180"/>
+		<sprite n="SportyElfRun5" x="689" y="66" w="51" h="66" oX="56" oY="92" oW="165" oH="180"/>
+		<sprite n="SportyElfRun6" x="520" y="886" w="51" h="68" oX="57" oY="90" oW="165" oH="180"/>
+		<sprite n="SportyElfRun7" x="884" y="118" w="51" h="60" oX="57" oY="91" oW="165" oH="180"/>
+		<sprite n="SportyElfRun8" x="884" y="60" w="53" h="58" oX="55" oY="94" oW="165" oH="180"/>
+	</animation>
+	<animation n="SportyElfTackle" l="0" i="0" d="733" f="">
+		<sprite n="SportyElfTackle1" x="442" y="362" w="41" h="72" oX="63" oY="88" oW="165" oH="180"/>
+		<sprite n="SportyElfTackle2" x="428" y="912" w="37" h="70" oX="68" oY="88" oW="165" oH="180"/>
+		<sprite n="SportyElfTackle3" x="317" y="222" w="51" h="74" oX="62" oY="90" oW="165" oH="180"/>
+		<sprite n="SportyElfTackle4" x="391" y="842" w="57" h="70" oX="64" oY="92" oW="165" oH="180"/>
+		<sprite n="SportyElfTackle5" x="630" y="0" w="59" h="66" oX="67" oY="93" oW="165" oH="180"/>
+		<sprite n="SportyElfTackle6" x="813" y="0" w="55" h="62" oX="58" oY="92" oW="165" oH="180"/>
+		<sprite n="SportyElfTackle7" x="344" y="444" w="55" h="72" oX="45" oY="79" oW="165" oH="180"/>
+		<sprite n="SportyElfTackle8" x="689" y="0" w="51" h="66" oX="50" oY="90" oW="165" oH="180"/>
+		<sprite n="SportyElfTackle9" x="736" y="132" w="49" h="66" oX="52" oY="91" oW="165" oH="180"/>
+		<sprite n="SportyElfTackle10" x="636" y="284" w="57" h="68" oX="55" oY="92" oW="165" oH="180"/>
+		<sprite n="SportyElfTackle11" x="387" y="370" w="55" h="72" oX="60" oY="88" oW="165" oH="180"/>
+	</animation>
+</TextureAtlas>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:5f2177e229bf7ebbe706425a97b7513b:a21e863deaffafe61038a6c4c86f760e:5ab57b2c3a0416bb0c42b7cb9fb6c05c$ -->
+<!--Format:
+
+sprite:
+n  => image id (originally name of the sprite file)
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+
+animation:
+n = name of animation
+l = looping method: 0=forward, 1=backward, 2=ping pong
+i = impact image. Some animations, such as the tackle and the kick, have an "impact" moment. This variable tells the time of impact in milliseconds.
+d = duration in milliseconds
+f = following animation (name)
+
+-->
+<TextureAtlas imagePath="UI_hexAtlas.png" width="512" height="512">
+    <animation n="StaticHex" l="0" i="0" d="0" f="StaticHex">
+		<sprite n="01" x="0" y="0" w="128" h="128" oX="0" oY="0" oW="128" oH="128"/>
+	</animation>
+	
+	 <animation n="AnimatedHex" l="0" i="0" d="466" f="AnimatedHex">
+		<sprite n="01" x="128" y="0" w="128" h="128" oX="0" oY="0" oW="128" oH="128"/>
+		<sprite n="02" x="256" y="0" w="128" h="128" oX="0" oY="0" oW="128" oH="128"/>
+		<sprite n="03" x="384" y="0" w="128" h="128" oX="0" oY="0" oW="128" oH="128"/>
+		<sprite n="04" x="0" y="128" w="128" h="128" oX="0" oY="0" oW="128" oH="128"/>
+		<sprite n="05" x="128" y="128" w="128" h="128" oX="0" oY="0" oW="128" oH="128"/>
+		<sprite n="06" x="256" y="128" w="128" h="128" oX="0" oY="0" oW="128" oH="128"/>
+		<sprite n="07" x="384" y="128" w="128" h="128" oX="0" oY="0" oW="128" oH="128"/>
+	</animation>
+	
+    <animation n="Circle" l="2" i="0" d="266" f="Circle">
+		<sprite n="01" x="0" y="256" w="128" h="64" oX="0" oY="0" oW="128" oH="64"/>
+		<sprite n="02" x="128" y="256" w="128" h="64" oX="0" oY="0" oW="128" oH="64"/>
+		<sprite n="03" x="0" y="320" w="128" h="64" oX="0" oY="0" oW="128" oH="64"/>
+		<sprite n="04" x="128" y="320" w="128" h="64" oX="0" oY="0" oW="128" oH="64"/>
+	</animation>
+	
+	 <animation n="EndBell" l="0" i="0" d="0" f="EndBell">
+		<sprite n="01" x="256" y="256" w="128" h="128" oX="0" oY="0" oW="128" oH="128"/>
+	</animation>
+	
+	<animation n="Exclamation" l="0" i="0" d="0" f="Exclamation">
+		<sprite n="01" x="0" y="384" w="64" h="128" oX="0" oY="0" oW="64" oH="128"/>
+		<sprite n="02" x="64" y="384" w="64" h="128" oX="0" oY="0" oW="64" oH="128"/>
+		<sprite n="03" x="128" y="384" w="64" h="128" oX="0" oY="0" oW="64" oH="128"/>
+		<sprite n="04" x="192" y="384" w="64" h="128" oX="0" oY="0" oW="64" oH="128"/>
+	</animation>
+	
+	
+	 <animation n="BlankFlag" l="0" i="0" d="0" f="BlankFlag">
+		<sprite n="01" x="256" y="384" w="128" h="128" oX="0" oY="0" oW="128" oH="128"/>
+	</animation>
+	
+	 <animation n="GoalNumbers" l="0" i="0" d="0" f="GoalNumbers">
+		<sprite n="01" x="384" y="384" w="64" h="64" oX="0" oY="0" oW="64" oH="64"/>
+		<sprite n="02" x="448" y="384" w="64" h="64" oX="0" oY="0" oW="64" oH="64"/>
+		<sprite n="03" x="384" y="448" w="64" h="64" oX="0" oY="0" oW="64" oH="64"/>
+		<sprite n="04" x="448" y="448" w="64" h="64" oX="0" oY="0" oW="64" oH="64"/>
+	</animation>
+	
+	
+	
+</TextureAtlas>

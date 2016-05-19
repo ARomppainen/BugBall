@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:b67d5071cd1a31571ca6660684bcb14b:e7dd0bff232542c3f3d703b3b2993864:0c2f03fbe505616e1dcf22fa9048d1c6$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+
+animation:
+n = name of animation
+l = looping method: 0=forward, 1=backward, 2=ping pong
+i = impact image. Some animations, such as the tackle and the kick, have an "impact" moment. This variable tells the time of impact in milliseconds.
+d = duration in milliseconds
+f = following animation (name)
+
+frames/milliseconds
+1f = 66
+2f = 133
+3f = 200
+4f = 266
+5f = 333
+6f = 400
+7f = 466
+8f = 533
+9f = 600
+10f= 666
+11f= 733
+12f= 800
+13f= 866
+14f= 933
+15f= 1000
+-->
+<TextureAtlas imagePath="BallBug2.png" width="128" height="128">
+    <animation n="BallBugCurl" l="3" i="0" d="200" f="">
+		<sprite n="1" x="87" y="90" w="29" h="26" oX="58" oY="109" oW="143" oH="156"/>
+		<sprite n="2" x="0" y="54" w="39" h="28" oX="53" oY="110" oW="143" oH="156"/>
+		<sprite n="3" x="58" y="74" w="29" h="30" oX="58" oY="108" oW="143" oH="156"/>
+	</animation>
+	
+	<animation n="BallBugUnCurl" l="3" i="0" d="133" f="">
+		<sprite n="1" x="0" y="54" w="39" h="28" oX="53" oY="110" oW="143" oH="156"/>
+		<sprite n="2" x="87" y="90" w="29" h="26" oX="58" oY="109" oW="143" oH="156"/>		
+	</animation>
+	
+	<animation n="BallBugStop" l="0" i="0" d="0" f="">
+		<sprite n="1" x="58" y="74" w="29" h="30" oX="58" oY="108" oW="143" oH="156"/>
+	</animation>
+	
+	<animation n="BallBugIdle" l="0" i="0" d="266" f="BallBugIdle">
+		<sprite n="1" x="0" y="28" w="47" h="26" oX="47" oY="109" oW="143" oH="156"/>
+		<sprite n="2" x="49" y="24" w="47" h="26" oX="46" oY="109" oW="143" oH="156"/>
+	</animation>
+	
+	<animation n="BallBugRoll" l="0" i="0" d="400" f="">	
+		<sprite n="1" x="58" y="74" w="29" h="30" oX="58" oY="108" oW="143" oH="156"/>		
+		<sprite n="2" x="0" y="90" w="29" h="30" oX="58" oY="108" oW="143" oH="156"/>
+		<sprite n="3" x="94" y="60" w="29" h="30" oX="58" oY="108" oW="143" oH="156"/>
+		<sprite n="4" x="96" y="30" w="29" h="30" oX="58" oY="108" oW="143" oH="156"/>
+		<sprite n="5" x="98" y="0" w="29" h="30" oX="58" oY="108" oW="143" oH="156"/>
+		<sprite n="5" x="29" y="90" w="29" h="30" oX="58" oY="108" oW="143" oH="156"/>
+	</animation>
+	
+	<animation n="BallBugWalk" l="0" i="0" d="200" f="">
+		<sprite n="1" x="47" y="50" w="47" h="24" oX="47" oY="110" oW="143" oH="156"/>
+		<sprite n="2" x="0" y="0" w="49" h="28" oX="45" oY="109" oW="143" oH="156"/>
+		<sprite n="3" x="49" y="0" w="49" h="24" oX="45" oY="110" oW="143" oH="156"/>
+	</animation>
+</TextureAtlas>

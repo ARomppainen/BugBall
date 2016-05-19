@@ -1,0 +1,38 @@
+precision mediump float;
+
+uniform sampler2D tex;
+uniform vec3 color;
+uniform bool useColor;
+
+uniform float atlasW;
+uniform float atlasH;
+uniform float spriteX;
+uniform float spriteY;
+uniform float spriteW;
+uniform float spriteH;
+
+varying vec2 fragTexCoord;
+
+float lerp(float v1, float v2, float t);
+
+void main() {
+
+	vec4 linearColor;
+
+    float x = lerp(spriteX, spriteX + spriteW, fragTexCoord.x);
+    float y = lerp(spriteY, spriteY + spriteH, fragTexCoord.y);
+    x = x / atlasW;
+    y = y / atlasH;
+
+	linearColor = texture2D(tex, vec2(x, y));
+
+    if (useColor) {
+        linearColor = linearColor * vec4(color, linearColor.a);
+    }
+
+    gl_FragColor = linearColor;
+}
+
+float lerp(float v1, float v2, float t) {
+    return v1 + t * (v2 - v1);
+}
